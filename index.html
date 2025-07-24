@@ -1,0 +1,45 @@
+<a!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Magical Invitation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <style>
+        .font-magic {
+            font-family: 'Cinzel Decorative', cursive;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Full-screen container with Hogwarts background -->
+    <div class="flex flex-col items-center justify-center h-screen p-6" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('a.jpg'); background-size: cover; background-position: center;">
+        
+        <!-- Main content box -->
+        <div class="text-center">
+            <h1 class="font-magic text-5xl md:text-7xl text-yellow-300 drop-shadow-lg">
+                A Magical Celebration Awaits
+            </h1>
+            <p class="mt-4 text-lg md:text-xl text-gray-300">
+                You are solemnly invited.
+            </p>
+            
+            <!-- Themed button that links to the birthday page -->
+            <a href="birth.html" class="mt-12 inline-block bg-red-700 text-yellow-200 font-bold text-xl px-10 py-4 rounded-lg shadow-xl border-2 border-yellow-300 transform hover:scale-105 hover:bg-red-600 transition-all duration-300 ease-in-out">
+                Enter the Great Hall
+            </a>
+        </div>
+
+        <!-- Subtle footer -->
+        <footer class="absolute bottom-4 text-gray-500 text-sm">
+            Please have your wands at the ready.
+        </footer>
+    </div>
+</body>
+</html>
